@@ -20,7 +20,7 @@ Projek CMS Laravel MSIB gits.id
 
 
 
-### installation
+## installation
 1. clone repository:
 git clone https://github.com/kristantra/msib_tugas_cms.git
 
@@ -61,4 +61,4 @@ php artisan serve
 
 
 
-## How to Run the Application
+
