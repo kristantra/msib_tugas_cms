@@ -22,38 +22,37 @@ Projek CMS Laravel MSIB gits.id
 
 ## installation
 1. clone repository:
-git clone https://github.com/kristantra/msib_tugas_cms.git
+- git clone https://github.com/kristantra/msib_tugas_cms.git
 
 
 
 
-2. Masuk ke directory proyek:
+2. Masuk ke directory proyek
 
 
 
 3. pasang dependency
-
-composer install
-npm install
+- composer install
+- npm install
 
 
 
 4. copy .env.example 
-cp .env.example .env
+- cp .env.example .env
 
 
 
 5. generate key aplikasi
-php artisan key:generate
+- php artisan key:generate
 
 6. perbarui berkas .env dengan  database anda dan pengaturan konfigurasi lainnya
 
 
 7. jalankan migrasi database
-php artisan migrate
+- php artisan migrate
 
 8. jalankan server
-php artisan serve
+- php artisan serve
 
 9. buka browser dan buka `http://localhost:8000` untuk mengakses aplikasi.
 
